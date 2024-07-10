@@ -1,0 +1,62 @@
+.flex-container-row{
+   display: flex; 
+   justify-content: center;
+   flex-direction: row;
+}
+
+.flex-container-row>div{
+    margin: 5px;
+    padding: 2px;
+}
+
+#imagenlogo{
+    width: 150px;
+
+}
+#mensajesChat{
+    width:60% ;
+    margin-top: 10px;
+    height:200px ;
+    background-color: gainsboro;
+    border: 1px  solid blue;
+    overflow-y: scroll;
+}
+#textomensaje{
+    height: 40Px;
+    width: 60%;
+    font-size: 20px;
+    border-top-style: none;
+    border-left-style:none ;
+    border-right-style:none ;
+    border-bottom: 2px solid blue; 
+}
+#textomensaje:focus{
+    outline: none;
+
+}
+.botonIniciar{
+border-style: none;
+padding: 10px;
+background-color: rgb(131, 204, 22) ;
+color: white ;
+font-size: 16px;
+cursor: pointer;
+
+}
+
+.botonCerrar{
+    border-style: none;
+padding: 10px;
+background-color:red ;
+color: white ;
+font-size: 16px;
+cursor: pointer;
+}
+
+.nombreusuario{
+   color: blue;
+}
+.mensajechat{
+    font-weight: bold;
+    background-color: bisque;
+}
